@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@mipmap/beijing"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="倾诉心事"
+        android:background="#EEE000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yundong_b"
+        android:layout_marginTop="45dp"
+        android:id="@+id/tucao_b"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="校园跳蚤市场"
+        android:background="#000FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tiaozao_b"
+        android:layout_below="@+id/yundong_b"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="我的课表"
+        android:background="#BBB000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kechengbiao_b"
+        android:layout_below="@+id/tucao_b"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="校园趣事"
+        android:background="#AAAFFF"
+        android:layout_height="wrap_content"
+        android:id="@+id/qushi_b"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:background="#CCC111"
+        android:layout_height="wrap_content"
+        android:id="@+id/yundong_b"
+        android:text="运动 "
+        android:layout_below="@+id/qushi_b"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:background="#CCCFFF"
+        android:text="表白墙"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/biaobai_"
+        android:layout_below="@+id/kechengbiao_b"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
